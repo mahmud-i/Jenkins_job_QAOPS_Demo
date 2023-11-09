@@ -1,0 +1,24 @@
+Started by upstream project "[8mha:////4HtKCWQZHj2Fg9kWDzhFG9eQr4yXLBVpt8RgTlUsMse+AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP1AR/+A4PiAovys1OQSfQAX9RkJyAAAAA==[0mQAOPS_Project" build number [8mha:////4HeHhaLCU99Euy8QE2q4Jml2Gfl/xVfB4XoDwCtHAx5nAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JP1AR/+A4PiAovys1OQSfUMLAFATePfKAAAA[0m18
+originally caused by:
+ Started by user [8mha:////4FAMTZcYqTXXPDWs2xVOd5xq3rAhxp/QA4cL7iSsKXpAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL93MSM3NIUAEa5nOTBAAAA[0mMahmudul Islam
+Running as SYSTEM
+Building in workspace D:\Jenkins\Jenkins_Home\.jenkins\workspace\Test_QAOPS_project
+[Test_QAOPS_project] $ cmd /c call C:\Users\SJDHAK~1.DES\AppData\Local\Temp\jenkins7873197820460641540.bat
+
+D:\Jenkins\Jenkins_Home\.jenkins\workspace\Test_QAOPS_project>cd D:\QAOPS_DEMO\Test_Demo 
+
+D:\QAOPS_DEMO\Test_Demo>python -m pytest tests\test_greeting_page.py --html=report.html 
+============================= test session starts =============================
+platform win32 -- Python 3.12.0, pytest-7.4.3, pluggy-1.3.0
+rootdir: D:\QAOPS_DEMO\Test_Demo
+plugins: html-4.1.0, metadata-3.0.0
+collected 3 items
+
+tests\test_greeting_page.py ...                                          [100%]
+
+----- Generated html report: file:///D:/QAOPS_DEMO/Test_Demo/report.html ------
+============================= 3 passed in 41.06s ==============================
+
+D:\QAOPS_DEMO\Test_Demo>exit 0 
+Triggering a new build of [8mha:////4CQapgyja/k6tzs45BA7NBwdu9QvhPTKGP09im+Coha1AAAAsh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyFEgY1/az8JP1AR/+A4PiAovys1OSS+JDU4pL4oNSC/KKS+NCCnPzEFH0AO5Ij7dsAAAA=[0mQAOPS_Project_Test_Report_Upload
+Finished: SUCCESS

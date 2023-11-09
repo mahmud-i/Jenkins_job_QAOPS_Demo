@@ -1,0 +1,30 @@
+Started by upstream project "[8mha:////4HkCynrRPtWbIWnaieoKcPJ7epWBAZQBdhIFkqWRrk1pAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP2Q1OKS+EBH/4Dg+IKi/KzU5BJ9AKf9N3nNAAAA[0mTest_QAOPS_project" build number [8mha:////4J/4ojkwKGfxWTxQi2Jz+AxNAQ3Ulyl8DGEq+Iu7KNrSAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYp/az8JP2Q1OKS+EBH/4Dg+IKi/KzU5BJ9IwMAGqHOBc8AAAA=[0m20
+originally caused by:
+ Started by upstream project "[8mha:////4HtKCWQZHj2Fg9kWDzhFG9eQr4yXLBVpt8RgTlUsMse+AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP1AR/+A4PiAovys1OQSfQAX9RkJyAAAAA==[0mQAOPS_Project" build number [8mha:////4L8WBrHQrQRrLmoEax3PHOwq74cM5LhSdYUll5HsYPszAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JP1AR/+A4PiAovys1OQSfSNDADf4iaXKAAAA[0m21
+ originally caused by:
+  Started by user [8mha:////4FAMTZcYqTXXPDWs2xVOd5xq3rAhxp/QA4cL7iSsKXpAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL93MSM3NIUAEa5nOTBAAAA[0mMahmudul Islam
+Running as SYSTEM
+Building in workspace D:\Jenkins\Jenkins_Home\.jenkins\workspace\QAOPS_Project_Test_Report_Upload
+[QAOPS_Project_Test_Report_Upload] $ cmd /c call C:\Users\SJDHAK~1.DES\AppData\Local\Temp\jenkins8787086632089519319.bat
+
+D:\Jenkins\Jenkins_Home\.jenkins\workspace\QAOPS_Project_Test_Report_Upload>cd D:\QAOPS_DEMO\Test_Demo\ 
+
+D:\QAOPS_DEMO\Test_Demo>git checkout main 
+M	Test_Demo/report.html
+M	Test_Demo/tests/__pycache__/test_greeting_page.cpython-312-pytest-7.4.3.pyc
+M	Test_Demo/tests/pages/__pycache__/greeting_actions.cpython-312.pyc
+Your branch is up to date with 'origin/main'.
+Switched to branch 'main'
+
+D:\QAOPS_DEMO\Test_Demo>git add report.html 
+
+D:\QAOPS_DEMO\Test_Demo>git commit -m "update new report"  
+[main 8e06ebb] update new report
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+D:\QAOPS_DEMO\Test_Demo>git push origin main 
+To https://github.com/mahmud-i/QAOPS_DEMO_Task.git
+   6679b47..8e06ebb  main -> main
+
+D:\QAOPS_DEMO\Test_Demo>exit 0 
+Finished: SUCCESS

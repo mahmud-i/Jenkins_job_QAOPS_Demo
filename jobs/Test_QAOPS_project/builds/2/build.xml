@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>QAOPS_Project</upstreamProject>
+            <upstreamUrl>job/QAOPS_Project/</upstreamUrl>
+            <upstreamBuild>6</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>mahmud</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>8</queueId>
+  <timestamp>1699277109995</timestamp>
+  <startTime>1699277109997</startTime>
+  <result>FAILURE</result>
+  <duration>40283</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Jenkins\Jenkins_Home\.jenkins\workspace\Test_QAOPS_project</workspace>
+  <hudsonVersion>2.430</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

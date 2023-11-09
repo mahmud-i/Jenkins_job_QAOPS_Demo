@@ -1,0 +1,43 @@
+Started by upstream project "[8mha:////4HkCynrRPtWbIWnaieoKcPJ7epWBAZQBdhIFkqWRrk1pAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP2Q1OKS+EBH/4Dg+IKi/KzU5BJ9AKf9N3nNAAAA[0mTest_QAOPS_project" build number [8mha:////4LrR4s+Q7YvK8sBz7M2e+5YvqPS5YBLwlDZf6EF0lx+dAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYp/az8JP2Q1OKS+EBH/4Dg+IKi/KzU5BJ9QyMA9ZPtwM8AAAA=[0m12
+originally caused by:
+ Started by upstream project "[8mha:////4HtKCWQZHj2Fg9kWDzhFG9eQr4yXLBVpt8RgTlUsMse+AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP1AR/+A4PiAovys1OQSfQAX9RkJyAAAAA==[0mQAOPS_Project" build number [8mha:////4EfoeVSicz1wgJVEd3zPEVWtc8oT9hRMiEQboLav0/NtAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JP1AR/+A4PiAovys1OQSfUNTAO1vyYnKAAAA[0m15
+ originally caused by:
+  Started by user [8mha:////4FAMTZcYqTXXPDWs2xVOd5xq3rAhxp/QA4cL7iSsKXpAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL93MSM3NIUAEa5nOTBAAAA[0mMahmudul Islam
+Running as SYSTEM
+Building in workspace D:\Jenkins\Jenkins_Home\.jenkins\workspace\QAOPS_Project_Test_Report_Upload
+[QAOPS_Project_Test_Report_Upload] $ cmd /c call C:\Users\SJDHAK~1.DES\AppData\Local\Temp\jenkins3384076561555776837.bat
+
+D:\Jenkins\Jenkins_Home\.jenkins\workspace\QAOPS_Project_Test_Report_Upload>cd D:\QAOPS_DEMO\Test_Demo\ 
+
+D:\QAOPS_DEMO\Test_Demo>git add report.html 
+
+D:\QAOPS_DEMO\Test_Demo>git commit -m "update new report" 
+[detached HEAD 4206c9b] update new report
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+D:\QAOPS_DEMO\Test_Demo>git checkout main 
+M	Test_Demo/tests/__pycache__/test_greeting_page.cpython-312-pytest-7.4.3.pyc
+M	Test_Demo/tests/pages/__pycache__/greeting_actions.cpython-312.pyc
+Your branch is up to date with 'origin/main'.
+Warning: you are leaving 1 commit behind, not connected to
+any of your branches:
+
+  4206c9b update new report
+
+If you want to keep it by creating a new branch, this may be a good time
+to do so with:
+
+ git branch <new-branch-name> 4206c9b
+
+Switched to branch 'main'
+
+D:\QAOPS_DEMO\Test_Demo>git fetch 
+
+D:\QAOPS_DEMO\Test_Demo>git merge 
+Already up to date.
+
+D:\QAOPS_DEMO\Test_Demo>git push origin main 
+Everything up-to-date
+
+D:\QAOPS_DEMO\Test_Demo>exit 0 
+Finished: SUCCESS

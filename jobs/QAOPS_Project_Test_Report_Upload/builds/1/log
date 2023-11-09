@@ -1,0 +1,30 @@
+Started by upstream project "[8mha:////4HkCynrRPtWbIWnaieoKcPJ7epWBAZQBdhIFkqWRrk1pAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP2Q1OKS+EBH/4Dg+IKi/KzU5BJ9AKf9N3nNAAAA[0mTest_QAOPS_project" build number [8mha:////4Fy0CbuEgap520BoN8dLIzuVkl+Y5xvWyFEAQ6GBl00IAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkn9rPwk/ZDU4pL4QEf/gOD4gqL8rNTkEn1zAMoLqebOAAAA[0m7
+originally caused by:
+ Started by upstream project "[8mha:////4HtKCWQZHj2Fg9kWDzhFG9eQr4yXLBVpt8RgTlUsMse+AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP1AR/+A4PiAovys1OQSfQAX9RkJyAAAAA==[0mQAOPS_Project" build number [8mha:////4DYiSXaMh0+nC3vB8lIp9BuMqT9C0rj97yPftK/HC9KuAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JP1AR/+A4PiAovys1OQSfUNDAPSrpI7KAAAA[0m11
+ originally caused by:
+  Started by user [8mha:////4FAMTZcYqTXXPDWs2xVOd5xq3rAhxp/QA4cL7iSsKXpAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL93MSM3NIUAEa5nOTBAAAA[0mMahmudul Islam
+Running as SYSTEM
+Building in workspace D:\Jenkins\Jenkins_Home\.jenkins\workspace\QAOPS_Project_Test_Report_Upload
+[QAOPS_Project_Test_Report_Upload] $ cmd /c call C:\Users\SJDHAK~1.DES\AppData\Local\Temp\jenkins166303474271950342.bat
+
+D:\Jenkins\Jenkins_Home\.jenkins\workspace\QAOPS_Project_Test_Report_Upload>cd D:\QAOPS_DEMO\Test_Demo\ 
+
+D:\QAOPS_DEMO\Test_Demo>git add report.html 
+
+D:\QAOPS_DEMO\Test_Demo>git commit -m "update new report" 
+[detached HEAD 478aff7] update new report
+ 1 file changed, 770 insertions(+)
+ create mode 100644 Test_Demo/report.html
+
+D:\QAOPS_DEMO\Test_Demo>git push origin main 
+To https://github.com/mahmud-i/QAOPS_DEMO_Task.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/mahmud-i/QAOPS_DEMO_Task.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you want to integrate the remote changes, use 'git pull'
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+D:\QAOPS_DEMO\Test_Demo>exit 1 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

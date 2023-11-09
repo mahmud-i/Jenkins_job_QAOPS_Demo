@@ -1,0 +1,50 @@
+Started by upstream project "[8mha:////4HkCynrRPtWbIWnaieoKcPJ7epWBAZQBdhIFkqWRrk1pAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP2Q1OKS+EBH/4Dg+IKi/KzU5BJ9AKf9N3nNAAAA[0mTest_QAOPS_project" build number [8mha:////4N2Ji5OAanVbiHav/YNqbThkPJPKrICrVNWbeSv50SuFAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYp/az8JP2Q1OKS+EBH/4Dg+IKi/KzU5BJ9IzMALwSt7M8AAAA=[0m26
+originally caused by:
+ Started by upstream project "[8mha:////4HtKCWQZHj2Fg9kWDzhFG9eQr4yXLBVpt8RgTlUsMse+AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP1AR/+A4PiAovys1OQSfQAX9RkJyAAAAA==[0mQAOPS_Project" build number [8mha:////4CwzRr9/3936ox9M0Eg0xuoEQXXL1LI4PO03cHxHBOZRAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JP1AR/+A4PiAovys1OQSfSNTAC485KLKAAAA[0m25
+ originally caused by:
+  Started by user [8mha:////4FAMTZcYqTXXPDWs2xVOd5xq3rAhxp/QA4cL7iSsKXpAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL93MSM3NIUAEa5nOTBAAAA[0mMahmudul Islam
+Running as SYSTEM
+Building in workspace D:\Jenkins\Jenkins_Home\.jenkins\workspace\QAOPS_Project_Test_Report_Upload
+[QAOPS_Project_Test_Report_Upload] $ cmd /c call C:\Users\SJDHAK~1.DES\AppData\Local\Temp\jenkins13843227474407328046.bat
+
+D:\Jenkins\Jenkins_Home\.jenkins\workspace\QAOPS_Project_Test_Report_Upload>cd D:\QAOPS_DEMO\Test_Demo\ 
+
+D:\QAOPS_DEMO\Test_Demo>git branch temp 
+
+D:\QAOPS_DEMO\Test_Demo>git add report.html 
+
+D:\QAOPS_DEMO\Test_Demo>git commit -m "update new report"  
+[detached HEAD a20d66d] update new report
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+D:\QAOPS_DEMO\Test_Demo>git checkout main 
+M	Test_Demo/tests/__pycache__/test_greeting_page.cpython-312-pytest-7.4.3.pyc
+M	Test_Demo/tests/pages/__pycache__/greeting_actions.cpython-312.pyc
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Warning: you are leaving 1 commit behind, not connected to
+any of your branches:
+
+  a20d66d update new report
+
+If you want to keep it by creating a new branch, this may be a good time
+to do so with:
+
+ git branch <new-branch-name> a20d66d
+
+Switched to branch 'main'
+
+D:\QAOPS_DEMO\Test_Demo>git merge temp 
+Updating c94eda0..fc64b1a
+Fast-forward
+ Website_demo/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+D:\QAOPS_DEMO\Test_Demo>git push origin main 
+Everything up-to-date
+
+D:\QAOPS_DEMO\Test_Demo>git branch -D temp 
+Deleted branch temp (was fc64b1a).
+
+D:\QAOPS_DEMO\Test_Demo>exit 0 
+Finished: SUCCESS

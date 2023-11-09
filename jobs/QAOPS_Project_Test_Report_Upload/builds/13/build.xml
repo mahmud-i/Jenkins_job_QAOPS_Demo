@@ -1,0 +1,43 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>Test_QAOPS_project</upstreamProject>
+            <upstreamUrl>job/Test_QAOPS_project/</upstreamUrl>
+            <upstreamBuild>22</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>QAOPS_Project</upstreamProject>
+                <upstreamUrl>job/QAOPS_Project/</upstreamUrl>
+                <upstreamBuild>23</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UserIdCause>
+                    <userId>mahmud</userId>
+                  </hudson.model.Cause_-UserIdCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>58</queueId>
+  <timestamp>1699529490572</timestamp>
+  <startTime>1699529490574</startTime>
+  <result>FAILURE</result>
+  <duration>1797</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Jenkins\Jenkins_Home\.jenkins\workspace\QAOPS_Project_Test_Report_Upload</workspace>
+  <hudsonVersion>2.430</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

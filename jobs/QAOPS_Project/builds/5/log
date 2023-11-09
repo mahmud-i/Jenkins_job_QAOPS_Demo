@@ -1,0 +1,20 @@
+Started by user [8mha:////4FAMTZcYqTXXPDWs2xVOd5xq3rAhxp/QA4cL7iSsKXpAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL93MSM3NIUAEa5nOTBAAAA[0mMahmudul Islam
+Running as SYSTEM
+Building in workspace D:\Jenkins\Jenkins_Home\.jenkins\workspace\QAOPS_Project
+The recommended git tool is: NONE
+using credential 81f6a244-6b98-46b0-adff-a713e3b574df
+ > C:\Program Files\Git\bin\git.exe rev-parse --resolve-git-dir D:\QAOPS_DEMO\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/mahmud-i/QAOPS_DEMO_Task.git # timeout=10
+Fetching upstream changes from https://github.com/mahmud-i/QAOPS_DEMO_Task.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.42.0.windows.2'
+using GIT_ASKPASS to set credentials 
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- https://github.com/mahmud-i/QAOPS_DEMO_Task.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision d5a55e7ec921bfa3b29bd68057873e9bf3cdd373 (refs/remotes/origin/main)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f d5a55e7ec921bfa3b29bd68057873e9bf3cdd373 # timeout=10
+Commit message: "Update index.html"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk d5a55e7ec921bfa3b29bd68057873e9bf3cdd373 # timeout=10
+Finished: SUCCESS

@@ -1,0 +1,28 @@
+Started by upstream project "[8mha:////4HkCynrRPtWbIWnaieoKcPJ7epWBAZQBdhIFkqWRrk1pAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP2Q1OKS+EBH/4Dg+IKi/KzU5BJ9AKf9N3nNAAAA[0mTest_QAOPS_project" build number [8mha:////4H1vanz9YOlVxd4RjgQF7B88NO3ZE07XRL5ub0pGLeQxAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkn9rPwk/ZDU4pL4QEf/gOD4gqL8rNTkEn1LAM0mEQHOAAAA[0m9
+originally caused by:
+ Started by user [8mha:////4FAMTZcYqTXXPDWs2xVOd5xq3rAhxp/QA4cL7iSsKXpAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL93MSM3NIUAEa5nOTBAAAA[0mMahmudul Islam
+Running as SYSTEM
+Building in workspace D:\Jenkins\Jenkins_Home\.jenkins\workspace\QAOPS_Project_Test_Report_Upload
+[QAOPS_Project_Test_Report_Upload] $ cmd /c call C:\Users\SJDHAK~1.DES\AppData\Local\Temp\jenkins7178014059378282792.bat
+
+D:\Jenkins\Jenkins_Home\.jenkins\workspace\QAOPS_Project_Test_Report_Upload>cd D:\QAOPS_DEMO\Test_Demo\ 
+
+D:\QAOPS_DEMO\Test_Demo>git switch main 
+M	Test_Demo/report.html
+M	Test_Demo/tests/__pycache__/test_greeting_page.cpython-312-pytest-7.4.3.pyc
+M	Test_Demo/tests/pages/__pycache__/greeting_actions.cpython-312.pyc
+Your branch is up to date with 'origin/main'.
+Already on 'main'
+
+D:\QAOPS_DEMO\Test_Demo>git add report.html 
+
+D:\QAOPS_DEMO\Test_Demo>git commit -m "update new report" 
+[main edb2313] update new report
+ 1 file changed, 770 insertions(+), 1 deletion(-)
+
+D:\QAOPS_DEMO\Test_Demo>git push origin main 
+To https://github.com/mahmud-i/QAOPS_DEMO_Task.git
+   c3529e7..edb2313  main -> main
+
+D:\QAOPS_DEMO\Test_Demo>exit 0 
+Finished: SUCCESS
